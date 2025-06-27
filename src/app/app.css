@@ -1,0 +1,20 @@
+.dropdown {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+.notification {
+  padding: 8px;
+  margin-bottom: 5px;
+  border-left: 4px solid #2196f3;
+  background: #f1faff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border-radius: 3px;
+}

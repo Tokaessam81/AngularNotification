@@ -1,0 +1,13 @@
+<!-- notification.component.html -->
+<div class="notification-container">
+  <h2>🔔 Notifications</h2>
+
+  <!-- 👇 زر تجربة -->
+  <button class="test-button" (click)="sendTestNotification()">📤 Send Test Notification</button>
+
+  <ul>
+    <li *ngFor="let notification of notifications">
+      {{ notification }}
+    </li>
+  </ul>
+</div>

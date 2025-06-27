@@ -1,0 +1,41 @@
+/* notification.component.css */
+.notification-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notification-container h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.notification-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.notification-container li {
+  background-color: #e9ecef;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-left: 5px solid #007bff;
+  border-radius: 5px;
+}
+
+.test-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.test-button:hover {
+  background-color: #0056b3;
+}
